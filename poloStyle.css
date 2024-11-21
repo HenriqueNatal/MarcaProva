@@ -1,0 +1,141 @@
+#barraCima{
+    background-color: aquamarine;
+    height: 70px;
+    display: flex;
+}
+
+#logo{
+    height: 65px;
+    margin-left: 4px;
+    margin-top: 3px;
+}
+
+.btnExpandir{
+    margin-left: 700px;
+    margin-top: 15px;
+    color: rgb(2, 44, 7);
+}
+
+#titulo{
+    margin-left: 10px;
+    color: rgb(2, 44, 7);
+}
+
+#campo{
+    background-repeat: no-repeat;
+    margin-top: 5px;
+    width: 1350px;
+    height: 400px;
+
+}
+
+
+.btn{
+    margin-left: 380px;
+    height: 75px;
+    width: 140px;
+    border-radius: 10px;
+    border-color: aqua;
+    font-size: 20px;
+    font-weight: bold;
+    align-items: baseline;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: aquamarine;
+}
+
+#cadastrar{
+    background-color: aquamarine;
+    border-radius: 15px;
+}
+fieldset{
+    border-color: chartreuse;
+    border-radius: 6px;
+    border-width: 2px;
+    font-size: 25px;
+}
+legend{
+    text-align: center;
+    font-size: 30px;
+}
+#data{
+    width: 100px;
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+#hora{
+    width: 80px;
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+#vaga{
+    width: 80px;
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+#polo{
+    width: 140px;
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid;
+    text-transform: uppercase;
+}
+#submit{
+    margin-left: 125px;
+    height: 25px;
+    width: 60px;
+    border-radius: 5px;
+    background-color: chartreuse;
+    cursor: pointer;
+}
+#btn-sair{
+    background-color: aqua;
+    border-radius: 5px;
+    height: 25px;
+    cursor: pointer;
+}
+
+#consultar{
+    background-color: aquamarine;
+    border-radius: 15px;
+}
+#btnSair{
+    background-color: aqua;
+    border-radius: 5px;
+    height: 25px;
+    cursor: pointer;
+}
+.table-box{
+    margin-top: 2%;
+    background-color:darkturquoise;    
+}
+
+.table-bg{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+  
+}
+
+.table-bg thead tr{
+    background-color: cadetblue;
+    text-align: left;
+    font-weight: bold;
+}
+
+.table-bg th,
+.table-bg td{
+    padding: 12px 15px;
+}
+
+.table-bg tbody tr{
+    border-bottom: 1px solid #585555;
+}
+
+.table-bg tbody tr:nth-last-of-type(even){
+    background-color: #c4bbbb;
+}

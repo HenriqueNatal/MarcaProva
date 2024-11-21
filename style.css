@@ -2,6 +2,21 @@
     background-image: linear-gradient(to right, rgb(33, 184, 230), rgb(9, 209, 69));
 }
 
+#logo{
+    height: 80px;
+    width: 380px;
+    margin-left: 820px;
+}
+#logoDois{
+    margin-top: 15px;
+    margin-left: 20px;
+}
+#cima{
+    background-color: rgba(2, 129, 30, 0.6);
+    height: 85px;
+    display: flex;
+}
+
 
 #caixalogin{
     width: 400px;
@@ -10,20 +25,20 @@
     border-color: black;
     border-radius: 10px;
     position: absolute;
-    top: 10%;
+    top: 23%;
     left: 35%;
     justify-content: center;
 }
 
 #titulo{
-    color:rgb(11, 11, 15);
+    color: bisque;
     margin-top: 5px;
     margin-left: 115px;
     font-size:65px;
 }
 
 #subtitulo{
-    color: rgb(11, 11, 15);
+    color: bisque;
     margin-top: -35px;
     margin-left: 190px;
 }
@@ -40,8 +55,15 @@
     border: none;
     margin-left: 50px;
     display: block;
-    padding: 3px;
-    height: 22px;
+    padding: 5px 0px 0px 5px;;
+    height: 25px;
+    width: 260px;
+    font-size: 16px;
+    letter-spacing: 0.8px;
+}
+#inusuario:focus{
+    border: .5px solid aqua;
+    outline: 1px solid aqua;
 }
 
 #lblsenha{
@@ -55,12 +77,29 @@
     border-radius: 4px;
     border: none;
     margin-left: 50px;
-    padding: 3px;
-    height: 22px;
+    padding: 5px 0px 0px 5px;
+    height: 25px;
+    width: 260px;
+    font-size: 16px;
+    letter-spacing: 0.8px;
+}
+#insenha:focus{
+    border: .5px solid aqua;
+    outline: 1px solid aqua;
+}
+
+#btn-senha{
+    cursor: pointer;
+    color: rgb(36, 34, 34);
+    border: 2px;
+    background-color: bisque;
+    font-size: 17px;
+    border-radius: 4px;
 }
 
 #btnentrar{
-    margin-left: 135px;
+    margin-left: 130px;
+    margin-top: 25px;
     height: 30px;
     width: 150px;
     cursor: pointer;

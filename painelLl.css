@@ -1,0 +1,128 @@
+#barraCima{
+    background-color: aquamarine;
+    height: 70px;
+    display: flex;
+}
+
+#logo{
+    height: 65px;
+    margin-left: 4px;
+    margin-top: 3px;
+}
+
+.btnExpandir{
+    margin-left: 700px;
+    margin-top: 15px;
+    color: rgb(2, 44, 7);
+}
+
+#titulo{
+    margin-left: 10px;
+    color: rgb(2, 44, 7);
+}
+
+body{
+    background-color:darkcyan;
+}
+
+#btn-abrir{
+    margin-left: 200px;
+    margin-top: 30px;
+    height: 45px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    border-color: aqua;
+    font-size: 20px;
+    font-weight: bold;
+}
+#btnConsultar{
+    margin-left: 200px;
+    margin-top: 30px;
+    height: 45px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    border-color: aqua;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#btn-abrir:hover{
+    background-color: aqua;
+    transition: 0.3s;
+}
+#btnConsultar:hover{
+    background-color: aqua;
+    transition: 0.3s;
+}
+
+#cadastrar{
+    background-color: aquamarine;
+    border-radius: 15px;
+}
+fieldset{
+    border-color: chartreuse;
+    border-radius: 6px;
+    border-width: 2px;
+    font-size: 25px;
+}
+legend{
+    text-align: center;
+    font-size: 30px;
+}
+
+#submit{
+    margin-left: 135px;
+    height: 25px;
+    width: 60px;
+    border-radius: 5px;
+    background-color: chartreuse;
+    cursor: pointer;
+}
+#btn-sair{
+    background-color: aqua;
+    border-radius: 5px;
+    height: 25px;
+    cursor: pointer;
+}
+#consultar{
+    background-color: aquamarine;
+    border-radius: 15px;
+}
+#btnSair{
+    background-color: aqua;
+    border-radius: 5px;
+    height: 25px;
+    cursor: pointer;
+}
+.table-box{
+    margin-top: 2%;
+    background-color:darkturquoise;    
+}
+
+.table-bg{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+  
+}
+
+.table-bg thead tr{
+    background-color: cadetblue;
+    text-align: left;
+    font-weight: bold;
+}
+
+.table-bg th,
+.table-bg td{
+    padding: 12px 15px;
+}
+
+.table-bg tbody tr{
+    border-bottom: 1px solid #585555;
+}
+
+.table-bg tbody tr:nth-last-of-type(even){
+    background-color: #c4bbbb;
+}

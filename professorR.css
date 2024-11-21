@@ -1,0 +1,87 @@
+#barraCima{
+    background-color: aquamarine;
+    height: 70px;
+    display: flex;
+}
+
+#logo{
+    height: 65px;
+    margin-left: 4px;
+    margin-top: 3px;
+}
+
+.btnExpandir{
+    margin-left: 700px;
+    margin-top: 15px;
+    color: rgb(2, 44, 7);
+}
+
+#titulo{
+    margin-left: 10px;
+    color: rgb(2, 44, 7);
+}
+
+body{
+    background-color:darkcyan;
+}
+
+#btn-abrir{
+    margin-left: 200px;
+    margin-top: 30px;
+    height: 45px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    border-color: aqua;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#btn-abrir:hover{
+    background-color: aqua;
+    transition: 0.3s;
+}
+
+#cadastrar{
+    background-color: aquamarine;
+    border-radius: 15px;
+}
+fieldset{
+    border-color: chartreuse;
+    border-radius: 6px;
+    border-width: 2px;
+    font-size: 25px;
+}
+legend{
+    text-align: center;
+    font-size: 30px;
+}
+#submit{
+    margin-left: 150px;
+    height: 25px;
+    width: 60px;
+    border-radius: 5px;
+    background-color: chartreuse;
+    cursor: pointer;
+}
+#btn-sair{
+    background-color: aqua;
+    border-radius: 5px;
+    height: 25px;
+    cursor: pointer;
+}
+
+#materia{
+    width: 250px;
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid;
+    text-transform: uppercase;
+}
+
+#alunos{
+    width: 60px;
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid;
+}
